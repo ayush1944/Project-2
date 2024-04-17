@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+@media screen and (min-width: 900px) {
+    #main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    #left{
+        padding: 17vh 5vw;
+        text-wrap: nowrap;
+    }
+    #left-top h1{
+        font-size: 9.5vw;
+        line-height: 10vw;
+        font-weight: normal;
+    }
+    #color{
+        height: 4%;
+        width: 25%;
+        padding: .5% 5% .5% 6%;
+        margin-left: .4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 4vh;
+        margin-top: 18vh;
+    }
+    #color h5{
+        /* font-size: 1.7vh; */
+        font-size: 100%;
+        font-weight: 1;
+    }
+    #circle1{
+        background: #7A6751;
+        margin: 2vh .3vw 2vh 1.2vw;
+        padding: .8vh;
+        border-radius: 50%;
+    }
+    #circle2{
+        margin-right:  .5vw;
+        background: #343330;
+        padding: .8vh;
+        border-radius: 50%;
+    }
+    
+    
+    #left-bottom{
+        margin-top: 5vh;
+    }
+    #left-bottom h4{
+        font-size:  2.2vh;
+    }
+    #left-bottom p{
+        margin-top: 1.3vh;
+        font-size: 1.7vh;
+        line-height: 1.99vh;
+    }
+    
+    #center{
+        position: relative;
+        left: 3.6vw;
+    }
+    #center h3{
+        margin-top: 77vh;
+        font-size: 3.5vh;
+        /* position: absolute; */
+        rotate:  -90deg;
+        text-wrap: nowrap;
+    }
+    
+    #right{
+        width: 50vw;
+        height: 65vh;
+        top: 222px;
+        top: 29.7vh;
+        position: relative;
+    }
+    #right-top{
+        width: 60%;
+        height: 5.3vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #right-top h3{
+        font-size: 18px;
+        font-size: 2.7vh;
+    }
+    #right-top h4{
+        font-size: 1.3vh;
+    }
+    #right-img{   
+        width: 60%;
+        height: 100%;
+        background-color: red;
+        background-position: 0 30%;
+        background-size: cover;
+        background-image: url(https://images.unsplash.com/photo-1620228922597-cca58f177310?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+    #button{
+        width: 18vh;
+        height: 18vh;
+        top: 30%;
+        left: 50%;
+        position: absolute;
+        background: #000;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #button h2{
+        font-size: 2.5vh;
+        font-weight: 1;
+        opacity:  .8;
+    }
+}
